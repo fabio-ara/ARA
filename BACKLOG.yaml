@@ -44,6 +44,37 @@ items:
       - Não existem versões canônicas concorrentes em outros idiomas.
       - Termos estrangeiros necessários são definidos na primeira ocorrência relevante.
 
+  - id: SCOPE-001
+    type: product
+    title: Adotar a tese de produto e a continuidade funcional do ARA
+    status: approved
+    summary: >-
+      Tratar o ARA como sucessor direto do AraLearn e como plataforma educacional
+      aberta, configurável, mobile-first e preparada para funcionamento offline,
+      preservando a experiência anterior como referência funcional e caso de contraste,
+      sem copiar automaticamente sua arquitetura interna.
+    decision_refs:
+      - DEC-006
+    acceptance_criteria:
+      - A apresentação pública identifica a continuidade funcional do projeto.
+      - A configuração anterior não é tratada como regra universal.
+      - A inspeção, a aprovação e a publicação permanecem sob controle humano.
+
+  - id: SCOPE-002
+    type: governance
+    title: Manter o projeto em pré-desenvolvimento até decisão explícita
+    status: approved
+    summary: >-
+      Separar pesquisa, definição do produto e exploração de design de qualquer
+      programa de implementação. A entrada em desenvolvimento exige decisão explícita,
+      revisão das bases vigentes, seleção do primeiro recorte e criação de itens executáveis novos.
+    decision_refs:
+      - DEC-007
+    acceptance_criteria:
+      - Nenhum rascunho, protótipo ou item candidato autoriza implementação.
+      - A visão integral, o primeiro recorte, a avaliação acadêmica e a adoção institucional permanecem distintos.
+      - Itens de implementação possuem requisitos, dependências e critérios de aceite atuais.
+
   - id: UX-001
     type: ux
     title: Adotar interface desktop com navegação à esquerda e grafo ao centro

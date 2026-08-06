@@ -1,12 +1,36 @@
-# ARA — Ambiente de Recursos de Aprendizagem
+# ARA - Ambiente de Recursos de Aprendizagem
 
-O ARA é uma plataforma em concepção para criação, organização, estudo, avaliação e investigação de recursos educacionais digitais.
+O ARA é uma plataforma educacional aberta e configurável, concebida para estudo estruturado, autoria e curadoria de cursos, versionamento, funcionamento offline e pesquisa educacional reproduzível.
 
-O projeto busca integrar, em uma mesma arquitetura, conteúdos educacionais estruturados, percursos de aprendizagem, mecanismos de autoria e curadoria, versionamento, parametrização, análise de dados educacionais e suporte à investigação empírica.
+O projeto sucede diretamente o AraLearn, uma experiência anterior de desenvolvimento que funciona como primeira referência funcional e caso de contraste. Essa continuidade não implica copiar sua arquitetura interna nem transformar sua configuração inicial em regra universal.
+
+A autoria, a auditoria e o reparo podem ser assistidos por inteligência artificial, mas a inspeção, a aprovação e a publicação permanecem sob controle humano explícito.
 
 ## Estado atual
 
-O projeto encontra-se na fase de definição conceitual, pesquisa e consolidação do backlog. As decisões de produto são registradas de forma rastreável, com distinção entre evidências, alternativas, decisões, requisitos e critérios de aceite.
+O projeto encontra-se em pré-desenvolvimento, com atividades de definição conceitual, pesquisa, consolidação do backlog e exploração de design. Não existe programa de implementação ativo.
+
+A transição para desenvolvimento depende de decisão explícita do responsável pelo projeto, revisão das bases vigentes, escolha do primeiro recorte implementável e criação de itens executáveis com requisitos e critérios de aceite atualizados.
+
+Quatro escopos permanecem distintos:
+
+- visão integral do produto;
+- primeiro recorte de implementação;
+- avaliação empírica vinculada à pesquisa acadêmica;
+- adoção institucional.
+
+## Orientação de produto
+
+A direção confirmada inclui:
+
+- experiência mobile-first, preparada para funcionamento offline;
+- estudo autodirigido estruturado;
+- autoria e curadoria visíveis, com controle humano;
+- conteúdo, configurações e proveniência versionados;
+- pesquisa educacional com condições e registros reproduzíveis;
+- portabilidade entre cenários gerenciados e autogerenciados.
+
+A factibilidade de cada capacidade deve ser investigada sem reduzir prematuramente a visão integral do produto.
 
 ## Documentação principal
 
@@ -20,4 +44,4 @@ A documentação canônica é escrita em português do Brasil, com terminologia 
 
 ## Licença
 
-A licença do projeto será indicada no arquivo `LICENSE`.
+O código do projeto é distribuído sob a licença indicada no arquivo [`LICENSE`](LICENSE).

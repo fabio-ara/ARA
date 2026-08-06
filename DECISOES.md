@@ -2,7 +2,7 @@
 
 Este arquivo contém decisões aprovadas e suas consequências. Alternativas, hipóteses e questões ainda abertas permanecem no backlog até que haja decisão.
 
-## DEC-001 — Método canônico de pesquisa, decisão e documentação
+## DEC-001 - Método canônico de pesquisa, decisão e documentação
 
 **Estado:** aprovada  
 **Data:** 6 de agosto de 2026
@@ -28,7 +28,7 @@ Adotar um método canônico, com backlog único, atualização coordenada das fo
 
 ---
 
-## DEC-002 — Português do Brasil como língua canônica
+## DEC-002 - Português do Brasil como língua canônica
 
 **Estado:** aprovada  
 **Data:** 6 de agosto de 2026
@@ -53,7 +53,7 @@ Usar português do Brasil em toda a documentação canônica, com definição de
 
 ---
 
-## DEC-003 — Composição inicial da interface desktop
+## DEC-003 - Composição inicial da interface desktop
 
 **Estado:** aprovada  
 **Data:** 6 de agosto de 2026
@@ -77,7 +77,7 @@ Adotar essa composição como direção aprovada da interface desktop. O painel 
 
 ---
 
-## DEC-004 — Grafo principal somente no nível do curso
+## DEC-004 - Grafo principal somente no nível do curso
 
 **Estado:** aprovada  
 **Data:** 6 de agosto de 2026
@@ -108,7 +108,7 @@ O grafo principal será renderizado somente no nível do curso. Cada nó represe
 
 ---
 
-## DEC-005 — Histórico deliberativo e histórico materializado
+## DEC-005 - Histórico deliberativo e histórico materializado
 
 **Estado:** aprovada  
 **Data:** 6 de agosto de 2026
@@ -134,3 +134,66 @@ Distinguir:
 ### Item relacionado
 
 - `PROV-001`
+
+---
+
+## DEC-006 - Tese de produto e continuidade funcional
+
+**Estado:** aprovada  
+**Data:** 6 de agosto de 2026
+
+### Problema
+
+A evolução do projeto precisa preservar comportamentos demonstrados pela experiência anterior sem transformar sua implementação ou configuração em modelo universal.
+
+### Decisão
+
+Tratar o ARA como sucessor direto do AraLearn e como plataforma educacional aberta, configurável, mobile-first e preparada para funcionamento offline.
+
+O AraLearn permanece como primeira referência funcional e caso de contraste. Essa continuidade não determina a arquitetura interna do ARA nem obriga que a primeira configuração seja adotada em todos os contextos.
+
+A inteligência artificial pode assistir à autoria, à auditoria e ao reparo, mas não recebe autoridade para aprovar ou publicar sua própria saída.
+
+### Consequências
+
+- comportamentos funcionais demonstrados devem ser preservados ou reformulados explicitamente;
+- componentes internos e escolhas técnicas do sistema anterior não são herdados automaticamente;
+- configurações e capacidades podem variar por contexto, desde que mantenham controle humano e rastreabilidade;
+- estudo offline e uso em dispositivos móveis modestos permanecem requisitos de qualidade.
+
+### Item relacionado
+
+- `SCOPE-001`
+
+---
+
+## DEC-007 - Pré-desenvolvimento e gate de implementação
+
+**Estado:** aprovada  
+**Data:** 6 de agosto de 2026
+
+### Problema
+
+Rascunhos de backlog, protótipos, estudos de arquitetura e planos de release podem ser confundidos com autorização para desenvolvimento.
+
+### Decisão
+
+Manter o ARA em pré-desenvolvimento enquanto estiverem em curso a pesquisa, a definição do produto, a consolidação do backlog e a exploração de design.
+
+A entrada em desenvolvimento exige:
+
+1. decisão explícita do responsável pelo projeto;
+2. revisão das bases conceituais e técnicas vigentes;
+3. escolha do primeiro recorte implementável;
+4. criação de itens executáveis novos, com requisitos, dependências e critérios de aceite atuais.
+
+### Consequências
+
+- propostas, protótipos e itens candidatos não autorizam código;
+- planos de implementação superados não orientam o trabalho atual;
+- a visão integral do produto, o primeiro recorte de implementação, a avaliação acadêmica e a adoção institucional permanecem escopos distintos;
+- a factibilidade deve ser investigada continuamente sem reduzir prematuramente a visão integral.
+
+### Item relacionado
+
+- `SCOPE-002`
