@@ -468,3 +468,55 @@ items:
       Casos não identificados não recebem atribuição pública.
     next_action: >-
       Relacionar cada antecedente a questões verificáveis, fontes externas pertinentes e limites de generalização.
+
+  - id: EXP-007
+    type: research
+    title: Tratar sistemas externos como precedentes, não requisitos
+    status: captured
+    summary: >-
+      Usar repositórios, plataformas e bibliotecas para observar modelos de conteúdo,
+      resposta, validação, retorno pedagógico, autoria, extensão e execução. Uma
+      funcionalidade existente, a popularidade do projeto ou a maturidade técnica
+      não demonstram efetividade educacional nem obrigam sua adoção pelo ARA.
+    next_action: >-
+      Registrar para cada precedente a versão examinada, o papel da fonte, a licença, os limites da auditoria e as condições necessárias antes de qualquer reutilização ou promoção.
+
+  - id: EXP-008
+    type: research
+    title: Avaliar gramáticas de domínio e primitivas compartilhadas
+    status: pending_research
+    summary: >-
+      Investigar quando estruturas comuns podem compartilhar primitivas sem apagar
+      restrições próprias de matemática, programação, circuitos, mapas, música,
+      moléculas, simulações, línguas, fontes e outros domínios. Um motor comum não
+      torna equivalentes as representações, atividades ou critérios de validação.
+    next_action: >-
+      Comparar famílias por estado semântico, operação do estudante, validade, correção, acessibilidade, funcionamento sem conexão e risco de falsa generalidade.
+
+  - id: EXP-009
+    type: technical
+    title: Definir governança de capacidades instaladas
+    status: pending_research
+    summary: >-
+      Avaliar um catálogo versionado de capacidades instaladas e aprovadas, com
+      contratos explícitos de representação, resposta, validação, execução,
+      acessibilidade, segurança, localização e funcionamento sem conexão. Cursos não
+      devem fornecer código arbitrário de componentes como parte do conteúdo.
+    alternatives:
+      - Manter um catálogo fechado e estático no núcleo.
+      - Usar capacidades instaladas e aprovadas com versões e permissões explícitas.
+      - Permitir código de componente fornecido pelo curso, alternativa não recomendada pelas fontes atuais.
+    next_action: >-
+      Comparar segurança da cadeia de fornecimento, licenças, compatibilidade, tamanho, atualização, isolamento, auditoria e experiência de autoria antes de uma decisão arquitetural.
+
+  - id: EXP-010
+    type: research
+    title: Registrar cobertura representativa e lacunas de validação
+    status: captured
+    summary: >-
+      Tratar a saturação como relativa às decisões examinadas. A amostragem atual
+      sustenta ampliar o horizonte além do perfil inicial e evita uma plataforma
+      universal sem governança, mas não valida interações avançadas, requisitos
+      institucionais, acessibilidade com usuários ou efetividade de capacidades.
+    next_action: >-
+      Converter lacunas parciais em estudos delimitados, testes com tecnologia assistiva, requisitos institucionais verificáveis e critérios capazes de alterar decisões específicas.
