@@ -132,15 +132,16 @@ items:
 
   - id: SCOPE-006
     type: governance
-    title: Revisar a idealização ampla antes de promover candidatos
+    title: Revisar candidatos amplos antes de promovê-los
     status: captured
     summary: >-
-      A idealização existente é deliberadamente mais ampla do que qualquer primeiro
-      recorte implementável. Antes de promover candidatos, revisar limites do produto,
-      primeiro perfil-alvo, matriz de preservação e reformulação, áreas que exigem
-      pesquisa adicional, modelos de composição e os artefatos visuais pertinentes.
+      Propostas preliminares de produto podem ser mais amplas do que qualquer primeiro
+      recorte implementável. Antes de promover um candidato, revisar limites do produto,
+      primeiro perfil-alvo, relação com capacidades já confirmadas, necessidade de
+      pesquisa adicional, dependências conceituais e artefatos de apoio que precisem
+      ser preservados no repositório público.
     next_action: >-
-      Realizar revisão item a item e registrar cada promoção, rejeição, adiamento ou necessidade de pesquisa sem aprovação por ausência de contestação.
+      Examinar cada candidato de forma autônoma e registrar sua promoção, rejeição, adiamento ou necessidade de pesquisa, sem aprovação por ausência de contestação.
 
   - id: UX-001
     type: ux
