@@ -1,0 +1,108 @@
+schema_version: 1
+project: ARA
+language: pt-BR
+source_of_truth: true
+
+states:
+  - captured
+  - pending_research
+  - under_review
+  - pending_owner_approval
+  - approved
+  - rejected
+  - deferred
+  - superseded
+  - implementation_ready
+  - implemented
+  - validated
+
+items:
+  - id: GOV-001
+    type: governance
+    title: Adotar método canônico de pesquisa, decisão e documentação
+    status: approved
+    summary: >-
+      Manter uma única estrutura coerente para registrar questões, evidências,
+      alternativas, decisões, requisitos, critérios de aceite, implementação e validação.
+    decision_refs:
+      - DEC-001
+    acceptance_criteria:
+      - Existe um único backlog canônico.
+      - Decisões aprovadas atualizam todas as fontes afetadas.
+      - Questões encerradas não permanecem abertas em documentos vigentes.
+
+  - id: LANG-001
+    type: documentation
+    title: Adotar português do Brasil como língua canônica
+    status: approved
+    summary: >-
+      Escrever a documentação em português do Brasil, com precisão técnica nas
+      áreas de computação e educação e explicação didática para leitores de formações distintas.
+    decision_refs:
+      - DEC-002
+    acceptance_criteria:
+      - Não existem versões canônicas concorrentes em outros idiomas.
+      - Termos estrangeiros necessários são definidos na primeira ocorrência relevante.
+
+  - id: UX-001
+    type: ux
+    title: Adotar interface desktop com navegação à esquerda e grafo ao centro
+    status: approved
+    summary: >-
+      Na visualização desktop, apresentar pastas e cursos visíveis no painel
+      esquerdo e o grafo de revisões do curso selecionado na área principal.
+    decision_refs:
+      - DEC-003
+    acceptance_criteria:
+      - O painel esquerdo apresenta pastas e cursos visíveis ao usuário.
+      - A área principal apresenta o grafo do curso selecionado.
+      - A composição funciona em navegador desktop.
+
+  - id: VER-001
+    type: product
+    title: Renderizar o grafo principal somente no nível do curso
+    status: approved
+    summary: >-
+      Cada nó do grafo principal representa uma revisão completa do curso.
+      Módulos, lições, microssequências, cards e recursos permanecem versionados,
+      mas são apresentados por hierarquia, composição, diferenças e proveniência.
+    decision_refs:
+      - DEC-004
+    acceptance_criteria:
+      - O grafo principal contém apenas revisões de curso.
+      - Níveis internos são navegáveis e comparáveis sem grafos principais recursivos.
+      - Derivações e consolidações permanecem representáveis no grafo do curso.
+
+  - id: PROV-001
+    type: product
+    title: Distinguir histórico deliberativo e histórico materializado
+    status: approved
+    summary: >-
+      Alterações efetivamente aplicadas ao curso geram novas revisões. Propostas,
+      decisões, auditorias, achados e observações podem ser preservados sem criar
+      revisão quando não houver materialização.
+    decision_refs:
+      - DEC-005
+    acceptance_criteria:
+      - Toda mutação confirmada e persistida gera nova revisão do curso.
+      - Propostas rejeitadas ou reformuladas não geram revisão do curso.
+      - O processo deliberativo pode ser relacionado à revisão que eventualmente produziu.
+
+  - id: RES-001
+    type: research
+    title: Estruturar o programa de levantamento bibliográfico
+    status: captured
+    summary: >-
+      Organizar perguntas, estratégias de busca, bases, corpus, critérios de seleção,
+      sínteses, limitações e relações entre evidências e decisões de produto.
+    next_action: Definir o primeiro conjunto de questões de pesquisa e o formato do registro bibliográfico.
+
+  - id: INF-001
+    type: technical
+    title: Investigar infraestrutura e factibilidade
+    status: captured
+    summary: >-
+      Examinar armazenamento, banco de dados, versionamento, sincronização,
+      funcionamento offline, backup, restauração, portabilidade, custo,
+      desempenho e possíveis cenários de adoção institucional.
+    next_action: Organizar as questões técnicas por decisão necessária e dependência de pesquisa.
