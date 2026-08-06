@@ -395,3 +395,76 @@ items:
       funcionamento offline, backup, restauração, portabilidade, custo,
       desempenho e possíveis cenários de adoção institucional.
     next_action: Organizar as questões técnicas por decisão necessária e dependência de pesquisa.
+
+  - id: EXP-001
+    type: research
+    title: Manter auditoria verificável da referência funcional AraLearn
+    status: captured
+    summary: >-
+      Registrar capacidades por camadas de autoridade, distinguindo contrato e
+      documentação, código executável, validadores, renderização, testes e exemplos.
+      Capacidades apenas documentadas, inferidas ou propostas não devem ser
+      apresentadas como implementadas.
+    next_action: >-
+      Definir um formato público resumido para evidências de implementação, conflitos, limitações e grau de confiança.
+
+  - id: EXP-002
+    type: product
+    title: Avaliar preservação seletiva dos invariantes do AraLearn
+    status: pending_research
+    summary: >-
+      Examinar IDs estáveis, contratos fechados e versionados, separação entre
+      semântica e geometria, estudo determinístico sem conexão, estado pessoal
+      mínimo, publicação explícita e imutável, fronteira de aplicação para agentes
+      e testes reutilizáveis. Esses elementos formam uma referência, não autorização
+      para copiar arquitetura, serviços, esquemas ou fluxos anteriores.
+    next_action: >-
+      Classificar cada invariante como requisito candidato, alternativa, evidência situada, patrimônio de testes ou característica não preservada.
+
+  - id: EXP-003
+    type: research
+    title: Reclassificar o catálogo legado por responsabilidade educacional
+    status: pending_research
+    summary: >-
+      Tratar o catálogo implementado como baseline verificável, não como ontologia do
+      ARA. Separar representação, atividade, resposta, validação, retorno pedagógico,
+      composição e capacidade conectada antes de decidir quais conceitos preservar,
+      dividir, reformular, especializar ou retirar.
+    next_action: >-
+      Confrontar as classificações provisórias com evidência por domínio, acessibilidade, uso móvel, funcionamento sem conexão e contratos futuros.
+
+  - id: EXP-004
+    type: research
+    title: Investigar lacunas demonstradas de resposta e interação
+    status: pending_research
+    summary: >-
+      A referência anterior possui diversidade representacional maior que a diversidade
+      de respostas. Investigar construção de grafos e geometrias, manipulação de dados,
+      reordenação, execução de código, anotação produzida pelo estudante, respostas
+      abertas e validações disciplinares sem presumir uma solução técnica única.
+    next_action: >-
+      Organizar as lacunas por operação cognitiva, domínio, autoridade de avaliação, acessibilidade, segurança, funcionamento sem conexão e evidência necessária.
+
+  - id: EXP-005
+    type: technical
+    title: Definir compatibilidade com cursos e dados do AraLearn
+    status: captured
+    summary: >-
+      Não há decisão sobre compatibilidade, importação ou migração. Avaliar leitura
+      direta, conversão, importação assistida, preservação somente documental ou
+      ausência de compatibilidade, mantendo proveniência, validação e recuperação
+      segura diante de conteúdo inválido.
+    next_action: >-
+      Inventariar formatos e estados relevantes, públicos afetados, custos, riscos de perda e critérios para uma futura decisão explícita.
+
+  - id: EXP-006
+    type: research
+    title: Usar experiências pessoais como evidência situada
+    status: captured
+    summary: >-
+      Preservar antecedentes de uso e casos negativos como fontes de perguntas e
+      hipóteses. Relato pessoal, descrição oficial do produto, estudo independente,
+      evidência de eficácia e requisito do ARA permanecem categorias distintas.
+      Casos não identificados não recebem atribuição pública.
+    next_action: >-
+      Relacionar cada antecedente a questões verificáveis, fontes externas pertinentes e limites de generalização.
