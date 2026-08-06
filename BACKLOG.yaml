@@ -386,6 +386,21 @@ items:
     next_action: >-
       Definir critérios de representatividade, procedência, anonimização, versões e usos permitidos.
 
+  - id: VAL-002
+    type: validation
+    title: Definir estados e evidências da validação
+    status: captured
+    summary: >-
+      Investigar separadamente validade da entrada, satisfação de critérios,
+      disponibilidade da capacidade necessária, autoridade responsável pela conclusão
+      e evidências produzidas pela validação. Definir também quem pode ver essas
+      evidências, por quanto tempo permanecem, quando precisam ser ocultadas ou
+      redigidas e como suportam revisão e contestação. Valores usados em protótipos
+      são exemplos experimentais, não políticas aprovadas.
+    next_action: >-
+      Relacionar estados, públicos, sensibilidade, reprodutibilidade, privacidade,
+      funcionamento offline e direitos de revisão antes de definir contratos ou políticas.
+
   - id: INF-001
     type: technical
     title: Investigar infraestrutura e factibilidade
