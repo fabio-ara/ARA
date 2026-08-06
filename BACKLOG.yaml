@@ -44,6 +44,19 @@ items:
       - Não existem versões canônicas concorrentes em outros idiomas.
       - Termos estrangeiros necessários são definidos na primeira ocorrência relevante.
 
+  - id: LANG-002
+    type: documentation
+    title: Definir o escopo futuro de localização e documentação por jurisdição
+    status: captured
+    summary: >-
+      Investigar separadamente os idiomas da interface, a relação entre idioma da
+      interface e idioma dos cursos, a localização de documentos públicos e o
+      tratamento de textos jurídicos e metadados bibliográficos segundo sua fonte
+      ou jurisdição. Esta pendência não altera o português do Brasil como idioma
+      canônico da documentação atual.
+    next_action: >-
+      Organizar alternativas, públicos, custos de manutenção e critérios para futura decisão.
+
   - id: SCOPE-001
     type: product
     title: Adotar a tese de produto e a continuidade funcional do ARA
@@ -74,6 +87,18 @@ items:
       - Nenhum rascunho, protótipo ou item candidato autoriza implementação.
       - A visão integral, o primeiro recorte, a avaliação acadêmica e a adoção institucional permanecem distintos.
       - Itens de implementação possuem requisitos, dependências e critérios de aceite atuais.
+
+  - id: SCOPE-003
+    type: research
+    title: Refinar o enquadramento acadêmico do gênero do ARA
+    status: captured
+    summary: >-
+      Examinar categorias vizinhas sem reduzir o ARA a uma plataforma de flashcards.
+      O enquadramento exploratório como ambiente aberto e configurável de aprendizagem
+      e autoria de recursos estruturados e interativos permanece hipótese descritiva,
+      não categoria bibliométrica estabelecida nem alegação de efetividade.
+    next_action: >-
+      Comparar a terminologia com literatura, capacidades confirmadas e futuros objetivos acadêmicos.
 
   - id: UX-001
     type: ux
