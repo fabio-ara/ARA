@@ -251,6 +251,79 @@ items:
     next_action: >-
       Avaliar objetivos, direitos, riscos, evidência, custos e compatibilidade entre perfis antes de qualquer aprovação.
 
+  - id: PED-006
+    type: research
+    title: Distinguir progressão estrutural de alegações de domínio
+    status: pending_research
+    summary: >-
+      Separar estados de continuidade e conclusão estrutural de alegações como
+      proficiência ou domínio. Qualquer progressão por critério deve declarar a base
+      de evidência, o critério versionado, o escopo da alegação, a remediação,
+      os overrides permitidos e a política de rechecagem. Não existe limiar universal.
+    next_action: >-
+      Comparar critérios e evidências por domínio, horizonte de retenção, contexto educacional, carga de trabalho, acessibilidade e consequências.
+
+  - id: PED-007
+    type: research
+    title: Modelar autoridade sobre sequência, ritmo e pré-requisitos
+    status: pending_research
+    summary: >-
+      Distinguir quem define a ordem, quem controla o ritmo, como funcionam
+      pré-requisitos, ramificações e exceções, e quais escolhas permanecem disponíveis
+      ao estudante. Controle compartilhado é uma recomendação a investigar, não
+      autorização para sequência adaptativa invisível nem para bloqueios irreversíveis.
+    next_action: >-
+      Avaliar estruturas autorais, escolhas do estudante, políticas institucionais, condições de pesquisa, remediação, contestação e caminhos acessíveis.
+
+  - id: PED-008
+    type: research
+    title: Investigar revisão espaçada, intercalação e carga
+    status: pending_research
+    summary: >-
+      Representar separadamente gatilho de revisão, agenda, padrão de intervalos,
+      horizonte de retenção, orçamento de carga, adiamento, relação entre itens e
+      tratamento após dificuldade. Espaçamento e intercalação possuem mecanismos
+      distintos, e as fontes não sustentam algoritmo, intervalo ou mistura universais.
+    next_action: >-
+      Comparar agendas e políticas por objetivo, domínio, similaridade entre categorias, tempo disponível, funcionamento offline e possibilidade de adiamento sem coerção.
+
+  - id: PED-009
+    type: research
+    title: Investigar exemplos, scaffolding, segmentação e retomada
+    status: pending_research
+    summary: >-
+      Examinar disponibilidade, posição e completude de exemplos, tipos e acesso a
+      scaffolds, retirada gradual e reversível de apoio, segmentação semanticamente
+      coerente e suporte determinístico à retomada após interrupções. Apoio para
+      novatos deve conduzir à prática independente sem retirar informação essencial.
+    next_action: >-
+      Avaliar combinações por expertise, domínio, complexidade, dispositivo, acessibilidade, estudo fragmentado e necessidade de restaurar apoio.
+
+  - id: PED-010
+    type: research
+    title: Investigar autonomia apoiada, adaptação e assistência por inteligência artificial
+    status: pending_research
+    summary: >-
+      Separar autonomia, autorregulação, adaptação, acessibilidade e assistência por
+      inteligência artificial. Recomendações e mudanças devem explicitar alvo,
+      evidência, autoridade, confirmação, transparência, override, rollback, snapshot
+      e fallback. A IA permanece assistente e não se torna autoridade educacional,
+      avaliadora ou publicadora por padrão.
+    next_action: >-
+      Investigar funções delimitadas, preservação da operação cognitiva, guardrails, contestação, privacidade, funcionamento offline e critérios para regras determinísticas ou aplicação humana confirmada.
+
+  - id: PED-011
+    type: research
+    title: Usar a formação acadêmica como orientação, não como evidência de eficácia
+    status: captured
+    summary: >-
+      Organizar temas, métodos e bibliografias das unidades curriculares relacionadas
+      ao projeto para orientar perguntas e revisões futuras. Ementas e bibliografias
+      de disciplinas não substituem revisões da literatura, não confirmam requisitos
+      e não autorizam implementar um tema apenas porque ele aparece na formação.
+    next_action: >-
+      Verificar referências, classificar obras por frente temática e relacioná-las a constructos, instrumentos, parâmetros ou questões de pesquisa.
+
   - id: AGENT-001
     type: research
     title: Investigar configuração modular de agentes e análise assistida
