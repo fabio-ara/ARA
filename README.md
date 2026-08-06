@@ -19,9 +19,9 @@ Quatro escopos permanecem distintos:
 - avaliação empírica vinculada à pesquisa acadêmica;
 - adoção institucional.
 
-## Orientação de produto
+## Visão integral do produto
 
-A direção confirmada inclui:
+A visão integral atualmente registrada inclui:
 
 - experiência mobile-first, preparada para funcionamento offline;
 - estudo autodirigido estruturado;
@@ -30,7 +30,7 @@ A direção confirmada inclui:
 - pesquisa educacional com condições e registros reproduzíveis;
 - portabilidade entre cenários gerenciados e autogerenciados.
 
-A factibilidade de cada capacidade deve ser investigada sem reduzir prematuramente a visão integral do produto.
+As capacidades ainda abertas permanecem no backlog com estado explícito e não constituem autorização para implementação. A factibilidade deve ser investigada sem reduzir prematuramente a visão integral do produto.
 
 ## Documentação principal
 
