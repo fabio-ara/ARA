@@ -520,3 +520,91 @@ items:
       institucionais, acessibilidade com usuários ou efetividade de capacidades.
     next_action: >-
       Converter lacunas parciais em estudos delimitados, testes com tecnologia assistiva, requisitos institucionais verificáveis e critérios capazes de alterar decisões específicas.
+
+  - id: MODEL-001
+    type: product
+    title: Definir unidade reutilizável e ocorrência contextual
+    status: pending_owner_approval
+    summary: >-
+      Submeter à aprovação o modelo em que a revisão de uma microssequência é a
+      unidade reutilizável inicial de autoria e uma ocorrência contextual a insere
+      em uma revisão completa de curso. A proposta é inicial e revisável, não uma
+      granularidade universal; ordem, papel, pré-requisitos e ajustes locais pertencem
+      ao contexto de uso, não ao conteúdo reutilizável isoladamente.
+    alternatives:
+      - Usar o card como unidade reutilizável principal.
+      - Usar a microssequência como unidade reutilizável inicial.
+      - Usar lição ou módulo como unidade reutilizável principal.
+      - Permitir identidade reutilizável equivalente em múltiplos níveis desde o início.
+    next_action: >-
+      Decidir a granularidade inicial após comparar coesão pedagógica, reutilização,
+      autoria assistida, reparo localizado, diferenças entre versões e funcionamento sem conexão.
+
+  - id: MODEL-002
+    type: product
+    title: Definir relações tipadas para dependências e cobertura
+    status: pending_owner_approval
+    summary: >-
+      Submeter à aprovação o uso de identificadores estáveis e relações tipadas,
+      versionadas e limitadas ao domínio para representar dependências, cobertura,
+      reutilização e relações conceituais. Rótulos e tags livres permaneceriam
+      auxiliares de busca, sem constituir o núcleo semântico das dependências.
+    alternatives:
+      - Representar dependências principalmente por texto livre e tags.
+      - Adotar vocabulários tipados, versionados e específicos por domínio.
+      - Adotar uma ontologia universal única para todos os domínios.
+    next_action: >-
+      Decidir a abordagem após testar expressividade, interoperabilidade, autoria,
+      manutenção e risco de falsa generalidade em cursos de domínios distintos.
+
+  - id: MODEL-003
+    type: product
+    title: Separar representação, prática, resposta, validação e retorno pedagógico
+    status: pending_owner_approval
+    summary: >-
+      Submeter à aprovação um modelo em que recurso ou representação, definição da
+      prática, forma de resposta, política de validação e política de retorno
+      pedagógico sejam responsabilidades distintas e combináveis. A separação é
+      coerente com as pendências pedagógicas vigentes, mas ainda não constitui
+      contrato de implementação nem catálogo fechado de componentes.
+    alternatives:
+      - Usar um componente único que concentre representação, interação e correção.
+      - Separar todas as responsabilidades em contratos próprios e combináveis.
+      - Separar somente as responsabilidades que demonstrarem necessidade concreta.
+    next_action: >-
+      Decidir a fronteira conceitual antes de especificar contratos técnicos,
+      garantindo validade educacional, acessibilidade, geração assistida e simplicidade de autoria.
+
+  - id: MODEL-004
+    type: product
+    title: Definir propriedade contextual do estado de estudo
+    status: pending_owner_approval
+    summary: >-
+      Submeter à aprovação o princípio de que progresso, retomada e estado funcional
+      pertencem ao contexto de estudo que combina estudante, revisão de curso,
+      ocorrência e card. Reutilizar o mesmo conteúdo em cursos diferentes não
+      transferiria automaticamente domínio, progresso ou outras alegações educacionais.
+    alternatives:
+      - Associar o estado principalmente ao conteúdo reutilizável, independentemente do curso.
+      - Manter estado contextual por curso e ocorrência, sem transferência automática.
+      - Permitir equivalência explícita posterior baseada em evidência e política aprovadas.
+    next_action: >-
+      Decidir a regra de identidade do estado e separar continuidade funcional de
+      quaisquer alegações de domínio, equivalência ou aprendizagem entre contextos.
+
+  - id: MODEL-005
+    type: product
+    title: Organizar bibliotecas e coleções por referências sem cópia implícita
+    status: pending_owner_approval
+    summary: >-
+      Submeter à aprovação o princípio de que pastas, coleções, programas e catálogos
+      organizem referências a cursos ou publicações sem criar cópias ocultas nem
+      alterar a identidade pedagógica do curso. Cópia, derivação e adaptação devem
+      permanecer operações explícitas e distinguíveis da simples organização.
+    alternatives:
+      - Fazer a organização criar cópias independentes automaticamente.
+      - Organizar por referências, exigindo operação explícita para copiar ou derivar.
+      - Permitir semânticas diferentes de organização por perfil ou contexto.
+    next_action: >-
+      Decidir a semântica de referência após avaliar autoria, proveniência,
+      versionamento, compartilhamento, funcionamento sem conexão e expectativas dos usuários.
