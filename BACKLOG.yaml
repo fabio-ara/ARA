@@ -100,6 +100,48 @@ items:
     next_action: >-
       Comparar a terminologia com literatura, capacidades confirmadas e futuros objetivos acadêmicos.
 
+  - id: SCOPE-004
+    type: product
+    title: Definir limites do produto, vocabulário público e cenários de referência
+    status: captured
+    summary: >-
+      Distinguir o ARA de um LMS completo, uma suíte genérica de autoria, um banco
+      de questões, uma plataforma exclusiva de pesquisa ou um simples repositório
+      de conteúdo. Definir termos públicos compreensíveis e manter cenários de
+      referência para estudo autodirigido offline, autoria assistida, ensino e
+      tutoria, pesquisa comparativa, instituição confidencial e publicação aberta.
+    next_action: >-
+      Organizar alternativas, funções excluídas por padrão e terminologia para decisão do responsável pelo projeto.
+
+  - id: SCOPE-005
+    type: product
+    title: Avaliar extensibilidade governada em camadas
+    status: pending_research
+    summary: >-
+      Avaliar a recomendação de combinar um núcleo educacional pequeno e reconhecível
+      com camadas explícitas de configuração e pesquisa, separando representações,
+      práticas, instrumentos e capacidades opcionais. A recomendação ainda não é
+      decisão de produto nem autorização para criar uma plataforma universal de componentes.
+    alternatives:
+      - Restringir a parametrização às capacidades já demonstradas pela experiência anterior.
+      - Projetar primeiro uma plataforma universal de componentes.
+      - Adotar um ecossistema educacional existente como identidade central do produto.
+      - Usar extensibilidade governada e incorporar capacidades somente após necessidade demonstrada.
+    next_action: >-
+      Comparar valor, complexidade, manutenção, acessibilidade, funcionamento offline e adequação à autoria assistida.
+
+  - id: SCOPE-006
+    type: governance
+    title: Revisar a idealização ampla antes de promover candidatos
+    status: captured
+    summary: >-
+      A idealização existente é deliberadamente mais ampla do que qualquer primeiro
+      recorte implementável. Antes de promover candidatos, revisar limites do produto,
+      primeiro perfil-alvo, matriz de preservação e reformulação, áreas que exigem
+      pesquisa adicional, modelos de composição e os artefatos visuais pertinentes.
+    next_action: >-
+      Realizar revisão item a item e registrar cada promoção, rejeição, adiamento ou necessidade de pesquisa sem aprovação por ausência de contestação.
+
   - id: UX-001
     type: ux
     title: Adotar interface desktop com navegação à esquerda e grafo ao centro
@@ -144,6 +186,20 @@ items:
       - Propostas rejeitadas ou reformuladas não geram revisão do curso.
       - O processo deliberativo pode ser relacionado à revisão que eventualmente produziu.
 
+  - id: AGENT-001
+    type: research
+    title: Investigar configuração modular de agentes e análise assistida
+    status: captured
+    summary: >-
+      Investigar perfis e versões de agentes, papéis e autoridade, perfis de domínio,
+      coleções de conhecimento, modelos de tarefa, fronteiras entre prompts, recursos
+      e ferramentas, políticas de contexto e escrita, snapshots efetivos, avaliações
+      de regressão, taxonomia de falhas, observações, reparo e reauditoria, métodos
+      quantitativos, qualitativos e mistos, reprodutibilidade e direitos dos participantes.
+      A inteligência artificial permanece assistente, não aprovadora ou autoridade científica.
+    next_action: >-
+      Separar os subproblemas por decisão, evidência necessária e domínio, preservando privacidade, proveniência e controle humano.
+
   - id: RES-001
     type: research
     title: Estruturar o programa de levantamento bibliográfico
@@ -152,6 +208,42 @@ items:
       Organizar perguntas, estratégias de busca, bases, corpus, critérios de seleção,
       sínteses, limitações e relações entre evidências e decisões de produto.
     next_action: Definir o primeiro conjunto de questões de pesquisa e o formato do registro bibliográfico.
+
+  - id: RES-002
+    type: research
+    title: Organizar evidências por autoridade, procedência e estabilidade temporal
+    status: captured
+    summary: >-
+      Distinguir observação de sistemas e experiências anteriores, documentação e
+      padrões oficiais, literatura acadêmica e baselines conceituais do projeto.
+      Registrar escopo, autoridade e data de acesso. Preços, quotas, capacidades de
+      serviços e outras informações instáveis devem ser revalidados antes de decisão.
+    next_action: >-
+      Definir campos mínimos de procedência e critérios para atualização de evidências temporais.
+
+  - id: RES-003
+    type: research
+    title: Resolver incertezas que podem alterar o recorte do produto
+    status: pending_research
+    summary: >-
+      Verificar compreensão de perfis por públicos distintos, capacidade de geração
+      e reparo localizado, desempenho em dispositivos modestos, requisitos de
+      instituições representativas, acessibilidade de interações avançadas e o caso
+      acadêmico ou curso que poderá determinar prioridades do primeiro recorte.
+    next_action: >-
+      Transformar cada incerteza em pergunta verificável, método, critério de mudança de decisão e destino no backlog.
+
+  - id: VAL-001
+    type: validation
+    title: Construir corpus representativo de cursos, estados e falhas
+    status: captured
+    summary: >-
+      Preparar casos simples e complexos que cubram recursos educacionais relevantes,
+      contextos pessoais e colaborativos, publicação, funcionamento offline,
+      interrupções, conflitos, capacidades indisponíveis e falhas recuperáveis.
+      O corpus servirá a avaliações futuras, não constitui validação por si só.
+    next_action: >-
+      Definir critérios de representatividade, procedência, anonimização, versões e usos permitidos.
 
   - id: INF-001
     type: technical
