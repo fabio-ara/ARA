@@ -202,13 +202,13 @@ items:
 
   - id: PED-002
     type: research
-    title: Modelar o ciclo de tentativa, feedback e revelação
+    title: Modelar o ciclo de tentativa, retorno pedagógico e revelação
     status: pending_research
     summary: >-
       Tratar limite de tentativas, informação entre tentativas, alvo da nova tentativa,
       acesso a pistas, gatilho e conteúdo de revelação, resultado, conteúdo, momento
-      e persistência do feedback como dimensões relacionadas, mas independentes.
-      As fontes não sustentam uma regra universal de feedback imediato ou atrasado,
+      e persistência do retorno pedagógico como dimensões relacionadas, mas independentes.
+      As fontes não sustentam uma regra universal de retorno imediato ou atrasado,
       tentativa única ou ilimitada, nem revelação sempre disponível ou sempre bloqueada.
     next_action: >-
       Comparar sequências por finalidade, domínio, conhecimento prévio, complexidade, acessibilidade e consequência antes de recomendar perfis.
@@ -224,17 +224,17 @@ items:
       tempo e uso de pistas não demonstram automaticamente domínio, esforço, atenção,
       habilidade ou dificuldade.
     next_action: >-
-      Transformar as restrições em critérios para pesquisa, analytics, relatórios, comparação de condições e futuras decisões de produto.
+      Transformar as restrições em critérios para pesquisa, análises de dados, relatórios, comparação de condições e futuras decisões de produto.
 
   - id: PED-004
     type: accessibility
-    title: Investigar acessibilidade estrutural de respostas e feedback
+    title: Investigar acessibilidade estrutural de respostas e retorno pedagógico
     status: pending_research
     summary: >-
       Examinar controles por teclado e tecnologia assistiva, identificação acessível
       de erros, preservação da entrada, foco e anúncios previsíveis, formas alternativas
-      de expressão, políticas de tempo e documentação de eventual mudança do constructo.
-      Dados de acomodação são sensíveis e não constituem analytics comuns.
+      de expressão, políticas de tempo e documentação de eventual mudança do construto.
+      Dados de acomodação são sensíveis e não constituem análises de dados comuns.
     next_action: >-
       Definir invariantes e critérios de avaliação por família de interação, dispositivo, modalidade e consequência.
 
@@ -244,10 +244,11 @@ items:
     status: captured
     summary: >-
       Usar a experiência anterior como perfil coerente de estudo autodirigido,
-      mobile-first, offline, não punitivo e sem telemetria de tentativas, sem tratá-la
-      como default universal. Comparar alternativas para estudo com critério local de
-      domínio, curso formativo, avaliação institucional, condição de pesquisa e
-      sobreposição de acessibilidade, mantendo explícitas autoridade e consequência.
+      priorização de dispositivos móveis, funcionamento sem conexão, caráter não
+      punitivo e ausência de telemetria de tentativas, sem tratá-la como padrão
+      universal. Comparar alternativas para estudo com critério local de domínio,
+      curso formativo, avaliação institucional, condição de pesquisa e sobreposição
+      de acessibilidade, mantendo explícitas autoridade e consequência.
     next_action: >-
       Avaliar objetivos, direitos, riscos, evidência, custos e compatibilidade entre perfis antes de qualquer aprovação.
 
@@ -259,7 +260,7 @@ items:
       Separar estados de continuidade e conclusão estrutural de alegações como
       proficiência ou domínio. Qualquer progressão por critério deve declarar a base
       de evidência, o critério versionado, o escopo da alegação, a remediação,
-      os overrides permitidos e a política de rechecagem. Não existe limiar universal.
+      as exceções autorizadas e a política de rechecagem. Não existe limiar universal.
     next_action: >-
       Comparar critérios e evidências por domínio, horizonte de retenção, contexto educacional, carga de trabalho, acessibilidade e consequências.
 
@@ -289,15 +290,15 @@ items:
 
   - id: PED-009
     type: research
-    title: Investigar exemplos, scaffolding, segmentação e retomada
+    title: Investigar exemplos, apoio instrucional, segmentação e retomada
     status: pending_research
     summary: >-
       Examinar disponibilidade, posição e completude de exemplos, tipos e acesso a
-      scaffolds, retirada gradual e reversível de apoio, segmentação semanticamente
-      coerente e suporte determinístico à retomada após interrupções. Apoio para
-      novatos deve conduzir à prática independente sem retirar informação essencial.
+      apoios instrucionais, retirada gradual e reversível de apoio, segmentação
+      semanticamente coerente e suporte determinístico à retomada após interrupções.
+      Apoio para novatos deve conduzir à prática independente sem retirar informação essencial.
     next_action: >-
-      Avaliar combinações por expertise, domínio, complexidade, dispositivo, acessibilidade, estudo fragmentado e necessidade de restaurar apoio.
+      Avaliar combinações por nível de experiência, domínio, complexidade, dispositivo, acessibilidade, estudo fragmentado e necessidade de restaurar apoio.
 
   - id: PED-010
     type: research
@@ -306,11 +307,13 @@ items:
     summary: >-
       Separar autonomia, autorregulação, adaptação, acessibilidade e assistência por
       inteligência artificial. Recomendações e mudanças devem explicitar alvo,
-      evidência, autoridade, confirmação, transparência, override, rollback, snapshot
-      e fallback. A IA permanece assistente e não se torna autoridade educacional,
-      avaliadora ou publicadora por padrão.
+      evidência, autoridade, confirmação, transparência, exceção autorizada, reversão,
+      registro do estado efetivo e comportamento alternativo. A IA permanece assistente
+      e não se torna autoridade educacional, avaliadora ou publicadora por padrão.
     next_action: >-
-      Investigar funções delimitadas, preservação da operação cognitiva, guardrails, contestação, privacidade, funcionamento offline e critérios para regras determinísticas ou aplicação humana confirmada.
+      Investigar funções delimitadas, preservação da operação cognitiva, salvaguardas,
+      contestação, privacidade, funcionamento sem conexão e critérios para regras
+      determinísticas ou aplicação humana confirmada.
 
   - id: PED-011
     type: research
@@ -322,7 +325,7 @@ items:
       de disciplinas não substituem revisões da literatura, não confirmam requisitos
       e não autorizam implementar um tema apenas porque ele aparece na formação.
     next_action: >-
-      Verificar referências, classificar obras por frente temática e relacioná-las a constructos, instrumentos, parâmetros ou questões de pesquisa.
+      Verificar referências, classificar obras por frente temática e relacioná-las a construtos, instrumentos, parâmetros ou questões de pesquisa.
 
   - id: AGENT-001
     type: research
