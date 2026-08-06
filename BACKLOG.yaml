@@ -187,6 +187,70 @@ items:
       - Propostas rejeitadas ou reformuladas não geram revisão do curso.
       - O processo deliberativo pode ser relacionado à revisão que eventualmente produziu.
 
+  - id: PED-001
+    type: research
+    title: Decompor finalidade, demanda, resposta e avaliação da prática
+    status: pending_research
+    summary: >-
+      Investigar um modelo no qual finalidade da prática, demanda cognitiva, forma
+      da resposta, validade da entrada, autoridade de avaliação e política de crédito
+      permaneçam dimensões distintas. O mesmo controle visual pode servir a estudo,
+      diagnóstico, avaliação formativa, avaliação somativa ou condição de pesquisa,
+      sem produzir interpretações equivalentes.
+    next_action: >-
+      Definir termos, valores candidatos, interações e critérios para distinguir prática de aprendizagem, medição e decisão consequencial.
+
+  - id: PED-002
+    type: research
+    title: Modelar o ciclo de tentativa, feedback e revelação
+    status: pending_research
+    summary: >-
+      Tratar limite de tentativas, informação entre tentativas, alvo da nova tentativa,
+      acesso a pistas, gatilho e conteúdo de revelação, resultado, conteúdo, momento
+      e persistência do feedback como dimensões relacionadas, mas independentes.
+      As fontes não sustentam uma regra universal de feedback imediato ou atrasado,
+      tentativa única ou ilimitada, nem revelação sempre disponível ou sempre bloqueada.
+    next_action: >-
+      Comparar sequências por finalidade, domínio, conhecimento prévio, complexidade, acessibilidade e consequência antes de recomendar perfis.
+
+  - id: PED-003
+    type: governance
+    title: Registrar restrições de interpretação para respostas e resultados
+    status: captured
+    summary: >-
+      Preservar a distinção entre efeito de prática, aprendizagem, validade de medida,
+      usabilidade, carga cognitiva e preferência. Escores de formatos diferentes não
+      são intercambiáveis sem calibração. Conclusão estrutural, número de tentativas,
+      tempo e uso de pistas não demonstram automaticamente domínio, esforço, atenção,
+      habilidade ou dificuldade.
+    next_action: >-
+      Transformar as restrições em critérios para pesquisa, analytics, relatórios, comparação de condições e futuras decisões de produto.
+
+  - id: PED-004
+    type: accessibility
+    title: Investigar acessibilidade estrutural de respostas e feedback
+    status: pending_research
+    summary: >-
+      Examinar controles por teclado e tecnologia assistiva, identificação acessível
+      de erros, preservação da entrada, foco e anúncios previsíveis, formas alternativas
+      de expressão, políticas de tempo e documentação de eventual mudança do constructo.
+      Dados de acomodação são sensíveis e não constituem analytics comuns.
+    next_action: >-
+      Definir invariantes e critérios de avaliação por família de interação, dispositivo, modalidade e consequência.
+
+  - id: PED-005
+    type: research
+    title: Comparar perfis educacionais sem universalizar a referência inicial
+    status: captured
+    summary: >-
+      Usar a experiência anterior como perfil coerente de estudo autodirigido,
+      mobile-first, offline, não punitivo e sem telemetria de tentativas, sem tratá-la
+      como default universal. Comparar alternativas para estudo com critério local de
+      domínio, curso formativo, avaliação institucional, condição de pesquisa e
+      sobreposição de acessibilidade, mantendo explícitas autoridade e consequência.
+    next_action: >-
+      Avaliar objetivos, direitos, riscos, evidência, custos e compatibilidade entre perfis antes de qualquer aprovação.
+
   - id: AGENT-001
     type: research
     title: Investigar configuração modular de agentes e análise assistida
