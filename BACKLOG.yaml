@@ -623,3 +623,82 @@ items:
     next_action: >-
       Decidir a semântica de referência após avaliar autoria, proveniência,
       versionamento, compartilhamento, funcionamento sem conexão e expectativas dos usuários.
+
+  - id: AUTH-001
+    type: product
+    title: Definir ciclo governado de autoria assistida, auditoria e reparo
+    status: pending_research
+    summary: >-
+      Formalizar um ciclo em que planejamento e propostas permanecem deliberativos até
+      decisão humana; a construção materializa somente partes autorizadas; a auditoria
+      examina uma revisão persistida sem alterá-la; o reparo depende de autorização e
+      escopo; e a reauditoria verifica a nova revisão. A inteligência artificial pode
+      atuar em papéis distintos, mas aprovação e publicação permanecem sob controle
+      humano explícito. Um levantamento comparativo de 43 registros, entre experiência
+      de desenvolvimento, padrões e orientações oficiais, sistemas implementados e
+      literatura acadêmica, sustenta a separação das etapas sem estabelecer um fluxo universal.
+    next_action: >-
+      Comparar o perfil de referência com autoria manual, autoria pessoal assistida,
+      equipes, pesquisa e contextos institucionais, definindo invariantes e pontos de variação.
+
+  - id: AUTH-002
+    type: governance
+    title: Definir identidade, papel, contribuição e autoridade na autoria
+    status: pending_research
+    summary: >-
+      Representar separadamente identidade do participante ou agente, papel operacional,
+      atividade realizada, alvo e revisão, contexto utilizado, autoridade exercida e
+      estado produzido. Uma mesma pessoa ou agente pode assumir papéis diferentes em
+      momentos distintos sem herdar automaticamente permissões. Contribuições observáveis
+      devem ser registráveis sem reduzir a autoria a um rótulo humano versus IA, sem
+      percentuais automáticos de autoria e sem inferir passividade, criticidade ou dependência.
+    next_action: >-
+      Definir a taxonomia mínima de papéis e contribuições, distinguindo atribuição,
+      responsabilidade, autoria jurídica, privacidade, proveniência e apresentação compreensível.
+
+  - id: CUR-001
+    type: governance
+    title: Definir revisão, achados, reparo e reauditoria por escopo e risco
+    status: pending_research
+    summary: >-
+      Separar validação estrutural, revisão ou auditoria, aprovação e publicação.
+      Achados devem identificar alvo, critério, impacto, recomendação e estado; reparos
+      exigem autoridade e escopo explícitos e não podem ampliar silenciosamente a mudança.
+      Alterações semânticas geram nova revisão e podem exigir verificação de regressões
+      e reauditoria. Independência, qualificação do revisor e separação de deveres devem
+      variar conforme risco e contexto, sem tratar assistência por IA como substituta
+      automática de especialistas em decisões críticas.
+    next_action: >-
+      Comparar rubricas, tipos de revisão, qualificações, gravidade, regras de aprovação
+      e gatilhos de reauditoria para uso pessoal, pesquisa, publicação e contextos institucionais.
+
+  - id: CUR-002
+    type: product
+    title: Definir observações situadas e resolução rastreável
+    status: pending_research
+    summary: >-
+      Modelar observações com alvo e revisão recuperáveis, motivação, visibilidade e
+      estado próprios. Responder a uma observação não deve resolvê-la automaticamente;
+      a resolução precisa apontar para decisão, alteração, achado ou revisão pertinente.
+      Observações podem orientar triagem, curadoria e reparo, mas não constituem votos,
+      verdade automática nem medida da competência de quem produziu o artefato.
+    next_action: >-
+      Comparar alvos, seletores, ciclo de vida, permissões, privacidade, acessibilidade
+      e relações com achados, reparos e histórico deliberativo.
+
+  - id: PUB-001
+    type: governance
+    title: Definir estados, audiência e gates de publicação
+    status: pending_research
+    summary: >-
+      Distinguir estado editorial de visibilidade e audiência: rascunho, prévia, pronto,
+      aprovado, publicado, retirado, substituído e arquivado não são equivalentes, e
+      publicado não significa necessariamente público. Gates podem combinar validação
+      estrutural, auditoria, aprovação humana, licença, acessibilidade, confidencialidade,
+      protocolo e política institucional. Retirada, supersessão, arquivamento e exclusão
+      precisam de semânticas próprias, sem mutação silenciosa de versões publicadas nem
+      propagação automática de mudanças para consumidores.
+    next_action: >-
+      Comparar perfis pessoais, de equipe, pesquisa, instituição, recursos educacionais
+      abertos e conteúdo confidencial, incluindo autoridade, retenção, rollback,
+      licenciamento, cópias offline e consequências para reutilização.
