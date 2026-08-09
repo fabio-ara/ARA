@@ -166,12 +166,20 @@ items:
       capacidades avançadas expostas progressivamente. A proposta histórica de destinos
       dependentes de papel ou capacidade, uma tarefa primária por visualização móvel e
       painéis contextuais no desktop permanece alternativa de desenho, não navegação
-      aprovada. Qualquer solução deve respeitar UX-001 e DEC-003 no desktop e não ocultar
-      capacidades indisponíveis nem consequências relevantes.
+      aprovada. A exploração de grafos extensos deve investigar projeções orientadas à
+      tarefa, filtros e agrupamentos que reduzam o conjunto visível sem alterar o grafo
+      canônico. Painel contextual, noção de revisão atual por contexto e demais mecanismos
+      permanecem candidatos. Qualquer solução deve respeitar UX-001, DEC-003 e DEC-004.
+    alternatives:
+      - Usar Mermaid para trajetórias pequenas e predominantemente de leitura.
+      - Usar Cytoscape.js com layout de DAG para exploração de linhagens e filtros.
+      - Usar React Flow combinado a ELK para nós ricos e superfícies de autoria.
     next_action: >-
-      Comparar alternativas de navegação e divulgação progressiva com tarefas
-      representativas, complexidade de perfis, acessibilidade, dispositivos móveis,
-      compreensão dos usuários e a composição desktop já aprovada antes de nova decisão.
+      Comparar navegação, divulgação progressiva e projeções de grafo com tarefas
+      representativas, acessibilidade, dispositivos móveis, compreensão dos usuários,
+      navegação por teclado, acesso não visual, pan e zoom, integração com diferenças
+      entre revisões, consumo de memória e testes indicativos com 100, 1.000 e 10.000
+      revisões. Nenhum renderizador ou mecanismo de layout está selecionado.
 
   - id: UX-003
     type: ux
@@ -188,6 +196,24 @@ items:
       Articular os candidatos com PED-004, VAL-001, versionamento, colaboração e acesso
       e sincronização, convertendo-os em invariantes testáveis e cenários de avaliação
       antes de aprovar telas, mensagens ou transições.
+
+  - id: UX-004
+    type: accessibility
+    title: Definir baseline transversal de acessibilidade e sistema de design
+    status: pending_research
+    summary: >-
+      Investigar um baseline de interface que combine HTML semântico, navegação por
+      teclado e foco previsível, reflow e zoom, alternativas sem arraste e não visuais
+      para estruturas bidimensionais, rótulos persistentes, erros descritivos, suporte
+      a redução de movimento, contraste e semântica não dependente apenas de cor. O
+      sistema de design candidato também propõe breakpoints orientados pelo conteúdo,
+      comandos que explicitem objeto e consequência e densidade adequada à tarefa. O
+      alvo histórico WCAG 2.2 AA, a preferência por controles de 44 px, espaçamentos,
+      tokens e catálogo de componentes são referências a validar, não requisitos aprovados.
+    next_action: >-
+      Confrontar padrões de acessibilidade, tecnologias assistivas, navegadores,
+      dispositivos, famílias de interação, requisitos de localização e linguagem da
+      interface antes de aprovar limiares, tokens, componentes ou regras visuais.
 
   - id: VER-001
     type: product
