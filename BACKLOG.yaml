@@ -157,6 +157,38 @@ items:
       - A área principal apresenta o grafo do curso selecionado.
       - A composição funciona em navegador desktop.
 
+  - id: UX-002
+    type: ux
+    title: Definir arquitetura de informação responsiva e divulgação progressiva
+    status: pending_research
+    summary: >-
+      Investigar uma arquitetura orientada às tarefas e perguntas do usuário, com
+      capacidades avançadas expostas progressivamente. A proposta histórica de destinos
+      dependentes de papel ou capacidade, uma tarefa primária por visualização móvel e
+      painéis contextuais no desktop permanece alternativa de desenho, não navegação
+      aprovada. Qualquer solução deve respeitar UX-001 e DEC-003 no desktop e não ocultar
+      capacidades indisponíveis nem consequências relevantes.
+    next_action: >-
+      Comparar alternativas de navegação e divulgação progressiva com tarefas
+      representativas, complexidade de perfis, acessibilidade, dispositivos móveis,
+      compreensão dos usuários e a composição desktop já aprovada antes de nova decisão.
+
+  - id: UX-003
+    type: ux
+    title: Definir estados transversais, recuperação e transparência operacional
+    status: pending_research
+    summary: >-
+      Investigar como estados offline, sincronização, conflito, permissão, capacidade
+      indisponível e falha devem aparecer de forma explícita e recuperável. Ações
+      consequenciais devem tornar visíveis alvo, versão, efeito, autoridade e
+      reversibilidade; falhas devem preservar trabalho e oferecer recuperação
+      compreensível; operações essenciais não devem depender apenas de cor, hover ou
+      arraste. Esses elementos são candidatos de UX e acessibilidade, não contratos de tela.
+    next_action: >-
+      Articular os candidatos com PED-004, VAL-001, versionamento, colaboração e acesso
+      e sincronização, convertendo-os em invariantes testáveis e cenários de avaliação
+      antes de aprovar telas, mensagens ou transições.
+
   - id: VER-001
     type: product
     title: Renderizar o grafo principal somente no nível do curso
