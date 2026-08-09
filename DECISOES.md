@@ -68,7 +68,7 @@ Adotar essa composição como direção aprovada da interface desktop. O painel 
 
 ### Consequências
 
-- o artefato visual correspondente deverá ser preservado no registro de telas aprovadas;
+- o [artefato visual correspondente](docs/interfaces/composicao-desktop-aprovada.svg) está preservado no registro público de interfaces;
 - decisões posteriores de interação devem respeitar essa composição, salvo revisão explícita.
 
 ### Item relacionado
