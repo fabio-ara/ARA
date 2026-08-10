@@ -14,7 +14,7 @@ As decisões vigentes sobre o significado do histórico permanecem em [`DECISOES
 
 A análise distingue a semântica do produto do mecanismo físico usado para armazená-la.
 
-A semântica já registrada exige distinguir histórico materializado e histórico deliberativo. Uma revisão de curso representa um estado lógico completo do curso, mas isso não obriga que todos os componentes inalterados sejam copiados fisicamente a cada revisão.
+A decisão vigente exige distinguir histórico materializado e histórico deliberativo. A investigação adicional tratou uma revisão de curso como um estado lógico completo que poderia reutilizar fisicamente componentes inalterados, mas essa propriedade permanece uma questão de pesquisa registrada no backlog, não uma decisão arquitetural aprovada.
 
 Permanecem questões de investigação:
 
