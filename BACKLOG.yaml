@@ -932,3 +932,64 @@ items:
       indisponíveis; comparar perfis, sobreposições, locks, overrides, fallback, cópia,
       comparação e versionamento de snapshots antes de decidir modelo de precedência,
       defaults, schema, UI, mecanismo adaptativo ou implementação.
+
+  - id: DATA-001
+    type: research
+    title: Definir protocolos, condições e atribuição reproduzíveis
+    status: pending_research
+    summary: >-
+      Investigar uma cadeia versionada que mantenha separadas pergunta e finalidade,
+      protocolo, condição e atribuição, evento autorizado ou instrumento, evidência,
+      medida, construto, interpretação e decisão ou intervenção. Condições candidatas
+      podem precisar registrar versões de conteúdo, composição e configuração efetiva,
+      capacidades, instrumentos, autorizações de eventos, dimensões bloqueadas,
+      acomodações exigidas por direitos, desvios e limitações de comparabilidade.
+      Termos metodológicos como randomizado, contrabalanceado, quase experimental ou
+      causal dependem dos respectivos requisitos de desenho e não decorrem do software.
+    next_action: >-
+      Confrontar os conceitos históricos com estudos entre participantes,
+      intraparticipante, qualitativos, mistos, de desenvolvimento e uso offline,
+      articulando PARAM-001, PARAM-002, VAL-001 e direitos de acessibilidade antes de
+      aprovar objetos, campos, snapshots, estados ou contratos de protocolo.
+
+  - id: DATA-002
+    type: governance
+    title: Definir governança de dados e direitos de participantes
+    status: pending_research
+    summary: >-
+      Investigar finalidade explícita, minimização, modo de identidade,
+      pseudonimização, consentimento quando aplicável, retirada, retenção, acesso,
+      exportação, uso secundário, tratamento de dados sensíveis, transparência ao
+      participante e resposta a incidentes. Dados pseudonimizados não devem ser
+      tratados automaticamente como anônimos. Logs operacionais e evidência de pesquisa
+      precisam permanecer separados por finalidade e autoridade. Nenhuma base jurídica,
+      política de retenção ou regra de eliminação está aprovada de forma universal.
+    next_action: >-
+      Mapear classes de dados, finalidades, atores, públicos, sensibilidade, contextos
+      institucionais e jurisdições; confrontar cenários de retirada, acessibilidade,
+      pesquisa offline, exportação e uso secundário e obter revisão ética ou jurídica
+      qualificada quando necessária antes de aprovar políticas ou implementação.
+
+  - id: DATA-003
+    type: research
+    title: Definir instrumentação, medidas, analytics e interoperabilidade de pesquisa
+    status: pending_research
+    summary: >-
+      Investigar um vocabulário versionado em que disponibilidade técnica não autorize
+      coleta e em que eventos, instrumentos, medidas, construtos e interpretações
+      mantenham responsabilidades distintas. Cada medida candidata deve declarar
+      pergunta, fórmula, denominador quando aplicável, unidade, unidade de análise,
+      janela, entradas, tratamento de dados ausentes, limitações e uso permitido.
+      Analytics pessoais, pedagógicos, de pesquisa e operacionais possuem finalidades,
+      visibilidade e autoridade diferentes. Caliper, xAPI, QTI, DDI, PROV-O, RO-Crate
+      e DPV permanecem mapeamentos candidatos, não a semântica interna do ARA.
+    alternatives:
+      - Manter vocabulário interno mínimo com mapeamentos versionados para padrões externos.
+      - Adotar um padrão externo como representação interna principal.
+      - Usar vocabulários específicos por finalidade e definir pacotes explícitos de interoperabilidade.
+    next_action: >-
+      Revisar os vinte e quatro eventos, dezesseis medidas e quatorze famílias de
+      instrumentos históricos contra perguntas representativas, PED-003, PROV-004,
+      privacidade, funcionamento offline e equivalência entre implantações; definir
+      critérios de conformidade sem aprovar event store, LRS, warehouse, dashboard,
+      modelo preditivo, schema, padrão obrigatório ou implementação.
