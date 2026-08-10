@@ -274,6 +274,42 @@ items:
       Realizar buscas formais de marcas, analisar titularidade e decidir eventual registro
       no Brasil e na Europa antes de alterar a política pública de identidade.
 
+  - id: VER-002
+    type: product
+    title: Definir escalas de histórico, checkpoints e restauração
+    status: pending_research
+    summary: >-
+      A decisão vigente de proveniência estabelece que toda mutação confirmada e
+      persistida cria uma nova revisão do curso. Ainda é necessário definir a fronteira
+      entre diário local e undo/redo, checkpoints automáticos não promovidos e revisões
+      duráveis navegáveis. Uma revisão durável deve representar um estado lógico completo
+      do curso sem obrigar cópia física integral de tudo o que não mudou. A restauração
+      não destrutiva, em que restaurar cria um novo descendente e preserva caminhos
+      posteriores, permanece uma direção histórica a validar e aprovar explicitamente.
+    next_action: >-
+      Definir gatilhos e retenção de checkpoints, promoção a revisão durável, restauração,
+      consolidação com múltiplos pais, falhas e relação com edição local, sincronização e
+      funcionamento offline antes de aprovar comportamento adicional de versionamento.
+
+  - id: PROV-004
+    type: governance
+    title: Definir proveniência operacional mínima e retenção sustentável
+    status: pending_research
+    summary: >-
+      Investigar um registro operacional que preserve fatos observáveis disponíveis ao
+      sistema, como ator, agente e configuração efetiva, revisão-base, alvos, operação,
+      autorização, validação, diferença e revisão resultante, sem exigir que a inteligência
+      artificial redija a própria contabilidade histórica. Separar esses fatos de análises
+      posteriores sobre autoria, agência ou qualidade e não produzir percentuais automáticos
+      de autoria. A retenção deve distinguir evidência durável necessária, conteúdo
+      configurável e estado transitório ou local; conversas, contexto recuperado e telemetria
+      não devem ser retidos indiscriminadamente nem transformados em dados de pesquisa sem
+      finalidade e protocolo apropriados.
+    next_action: >-
+      Definir fatos mínimos, relações, públicos, sensibilidade, prazos, referências de
+      retenção, direitos de revisão e regras para uso em pesquisa antes de aprovar schemas,
+      receipts, políticas de coleta ou períodos de armazenamento.
+
   - id: PED-001
     type: research
     title: Decompor finalidade, demanda, resposta e avaliação da prática
@@ -495,8 +531,17 @@ items:
     summary: >-
       Examinar armazenamento, banco de dados, versionamento, sincronização,
       funcionamento offline, backup, restauração, portabilidade, custo,
-      desempenho e possíveis cenários de adoção institucional.
-    next_action: Organizar as questões técnicas por decisão necessária e dependência de pesquisa.
+      desempenho e possíveis cenários de adoção institucional. Para o histórico de
+      versões, permanecem alternativas a comparar: sobrescrita com logs, snapshots
+      completos no banco ou em armazenamento de objetos, objetos endereçados por
+      conteúdo com manifests, deltas ou patches, event sourcing integral, versionamento
+      nativo do armazenamento, linhas temporais, Git verdadeiro e camadas semelhantes a
+      Git sobre armazenamento de objetos. Nenhuma dessas alternativas está selecionada.
+    next_action: >-
+      Comparar as alternativas com workloads representativos, simplicidade, custo de
+      leitura e escrita, integridade, backup e restauração, funcionamento offline,
+      portabilidade, quantidade de objetos, índices e capacidade institucional antes
+      de qualquer decisão de arquitetura, provedor ou schema físico.
 
   - id: EXP-001
     type: research
