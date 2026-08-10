@@ -262,17 +262,23 @@ items:
 
   - id: PROV-003
     type: governance
-    title: Resolver proteção formal e uso da identidade do ARA
+    title: Resolver titularidade, proteção formal e uso da identidade do ARA
     status: captured
     summary: >-
       O nome ARA, a expressão Plataforma ARA, a expansão Ambiente de Recursos de
       Aprendizagem, o kanji, o logotipo e a identidade visual não são concedidos pelas
       licenças de software ou documentação. O projeto não declara atualmente esses sinais
-      como marcas registradas e o símbolo ® não deve ser usado. Usos descritivos não devem
-      sugerir patrocínio, certificação, endosso ou caráter oficial inexistentes.
+      como marcas registradas e o símbolo ® não deve ser usado. A análise futura deve
+      manter inventário datado dos antecedentes e demais ativos preexistentes relevantes,
+      incluindo AraLearn e AraTalk, e esclarecer quando necessário possíveis vínculos
+      universitários, empregatícios ou de terceiros, sem presumir conclusão de titularidade.
+      Correspondência institucional sensível não integra a documentação pública. Usos
+      descritivos não devem sugerir patrocínio, certificação, endosso ou caráter oficial inexistentes.
     next_action: >-
-      Realizar buscas formais de marcas, analisar titularidade e decidir eventual registro
-      no Brasil e na Europa antes de alterar a política pública de identidade.
+      Inventariar ativos preexistentes e evidências datadas, esclarecer titularidade e
+      vínculos aplicáveis, realizar buscas formais de marcas e decidir eventual registro
+      no Brasil e na Europa antes de alterar a política pública de identidade. Obter revisão
+      qualificada quando a questão exigir conclusão jurídica.
 
   - id: VER-002
     type: product
