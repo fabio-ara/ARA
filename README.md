@@ -42,6 +42,9 @@ As capacidades ainda abertas permanecem no backlog com estado explícito e não 
 
 A documentação canônica é escrita em português do Brasil, com terminologia adequada às áreas de computação e educação e explicações acessíveis a pesquisadores, educadores, avaliadores e profissionais de tecnologia.
 
-## Licença
+## Licenciamento e identidade
 
-O código do projeto é distribuído sob a licença indicada no arquivo [`LICENSE`](LICENSE).
+- o código-fonte original é distribuído sob `AGPL-3.0-or-later`, conforme [`LICENSE`](LICENSE);
+- a documentação original é distribuída sob `CC BY 4.0`, salvo indicação diferente, conforme [`LICENSE-DOCUMENTATION.md`](LICENSE-DOCUMENTATION.md);
+- limites relativos a conteúdos educacionais, dados de pesquisa e materiais de terceiros estão registrados em [`LICENCIAMENTO.md`](LICENCIAMENTO.md);
+- o uso do nome e da identidade visual do projeto é tratado separadamente em [`MARCAS.md`](MARCAS.md).
