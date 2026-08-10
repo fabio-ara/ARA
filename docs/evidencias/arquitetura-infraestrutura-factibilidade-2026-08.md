@@ -1,7 +1,7 @@
 # Evidências sobre arquitetura, infraestrutura e factibilidade
 
 **Categoria:** análise de arquitetura, infraestrutura e factibilidade técnica  
-**Recorte temporal:** 3 de agosto de 2026  
+**Recorte temporal:** 3 a 5 de agosto de 2026  
 **Estado:** histórico e não normativo
 
 Este documento preserva uma investigação histórica sobre como estruturar a infraestrutura do ARA sem transformar restrições de um primeiro recorte, preferências tecnológicas ou características de um provedor em invariantes permanentes do produto.
@@ -208,3 +208,99 @@ Na orientação atual:
 - `DEC-007` impede interpretar qualquer baseline histórico como autorização para implementação.
 
 A arquitetura histórica local-first híbrida permanece, portanto, uma alternativa tecnicamente articulada e documentada, não a arquitetura vigente do ARA.
+
+## 9. Evolução da investigação de versionamento e armazenamento
+
+Uma primeira formulação da frente de armazenamento organizou dez perguntas de investigação:
+
+1. inventário de objetos versionados;
+2. fronteira entre metadados relacionais, artefatos e estado local;
+3. endereçamento por conteúdo e deduplicação;
+4. manifests e materialização;
+5. retenção e garbage collection condicionadas por referências, direitos e protocolos;
+6. workloads e simulação de custo em ordens de 10 mil, 100 mil e 1 milhão de revisões;
+7. comparação entre formas de implantação;
+8. disponibilidade, pausa, degradação de serviço e continuidade offline;
+9. backup, exportação e restauração independentes de fornecedor;
+10. administração compreensível de espaço, crescimento, retenção, custo estimado, objetos órfãos e consequências de limpeza.
+
+Uma revisão posterior ampliou o enquadramento. Versionamento deixou de ser tratado prioritariamente como problema de armazenamento e passou a ser analisado primeiro como suporte à autoria reversível, à preservação de erros e reparos, à investigação longitudinal e transversal, à fixação de condições de pesquisa, à derivação colaborativa e ao funcionamento offline. Somente depois dessas necessidades deveriam ser avaliadas granularidade física, mecanismos de persistência, retenção e custo.
+
+A revisão posterior substitui a primeira como leitura conceitual mais completa, mas a preocupação inicial com **administração compreensível do armazenamento e consequências de limpeza** permanece um requisito de investigação útil que não deve ser perdido.
+
+As famílias físicas de versionamento e armazenamento comparadas nessa evolução já estão preservadas em `versionamento-e-armazenamento-2026-08.md`. Nenhuma delas foi selecionada.
+
+## 10. Mapa histórico de trinta alternativas tecnológicas
+
+Uma etapa de idealização estruturou trinta alternativas em nove camadas. Os rótulos então usados, como `candidate`, `recommended`, `candidate-baseline`, `principal-hypothesis`, `defer` ou equivalentes, registravam a leitura daquela rodada. Eles não têm autoridade de decisão vigente.
+
+| Camada | Alternativa histórica | Papel ou questão então considerada |
+|---|---|---|
+| backend | Supabase | continuidade operacional e possível primeiro adaptador conectado |
+| backend | Firebase | alternativa móvel e gerenciada a comparar apenas se houvesse benefício específico |
+| backend | Appwrite | BaaS integrado e autogerenciável para ensaio comparativo |
+| backend | Nhost | alternativa baseada em PostgreSQL e GraphQL para ensaio de portabilidade |
+| backend | PocketBase | opção simples para cenários pessoais ou autogerenciados pequenos |
+| backend | PostgreSQL + S3-compatible + OIDC/API própria | referência de maior independência com maior custo operacional |
+| perfil | somente local | hipótese para uso pessoal com custo remoto mínimo e colaboração posterior |
+| armazenamento local | IndexedDB direto | alternativa nativa de navegador e continuidade com experiência anterior |
+| armazenamento local | Dexie | camada sobre IndexedDB para reduzir complexidade de transações e consultas |
+| armazenamento local | RxDB | banco local-first com replicação e maior complexidade de dependência |
+| armazenamento local | SQLite com OPFS | alternativa relacional local que exige avaliar WASM, workers e compatibilidade |
+| armazenamento local | PGlite | PostgreSQL no navegador, sujeito a medição de memória, inicialização e maturidade |
+| sincronização | protocolo específico do ARA | alternativa com semântica de operações controlada pelo produto |
+| sincronização | PowerSync | serviço de sincronização baseado em SQLite a comparar por custo, licença e adequação |
+| sincronização | replicação RxDB | alternativa cliente-servidor com pull, push e checkpoints |
+| sincronização | ausência de sync genérico no primeiro recorte | hipótese de reduzir risco inicial por packages e exportação/importação |
+| hospedagem | GitHub Pages | hospedagem estática de demonstração, sem autoridade sobre o domínio |
+| hospedagem | outro host HTTPS estático | alternativa institucional ou independente de provedor para o mesmo artefato |
+| aplicação | PWA | hipótese de uma aplicação web instalável com base de código comum |
+| aplicação | Trusted Web Activity ou empacotador equivalente | wrapper Android mínimo sobre experiência web hospedada |
+| aplicação | Capacitor | contêiner web com acesso a capacidades nativas quando justificadas |
+| interface | ESM/Web Components | alternativa de baixo overhead e maior orquestração manual |
+| interface | React + TypeScript | alternativa de ecossistema de componentes, tipos e testes |
+| interface | Vue ou Svelte | alternativas de framework a comparar por manutenção, tamanho e ecossistema |
+| carregamento de capacidades | packages definidos no build | alternativa de maior previsibilidade e segurança, com rebuild para alterações |
+| carregamento de capacidades | packages oficiais sob demanda | alternativa para reduzir bundle inicial com custo de cache e versionamento |
+| carregamento de capacidades | packages assinados em runtime | hipótese de ecossistema instalável com riscos de supply chain e compatibilidade |
+| artefatos | objetos imutáveis endereçados por conteúdo | hipótese de integridade e deduplicação com maior complexidade de lifecycle |
+| artefatos | JSON integral de curso | alternativa simples, mas potencialmente grosseira e duplicadora |
+| artefatos | manifesto de curso com revisões de unidades | hipótese de reutilização e atualização granular que exige resolução de referências |
+
+Esse mapa não constitui ranking técnico nem recomendação atual. Ele demonstra a amplitude do espaço considerado e ajuda a evitar que uma escolha histórica de stack seja confundida com identidade do produto.
+
+## 11. Evidência temporal de fornecedores e critérios de revalidação
+
+A investigação registrou preços, quotas, políticas de pausa e capacidades de serviços gerenciados em agosto de 2026. Esses dados são evidência histórica e instável. O retrato detalhado de Supabase, Cloudflare R2/D1, Neon e Appwrite está preservado em `versionamento-e-armazenamento-2026-08.md`.
+
+Qualquer decisão futura deve revalidar pelo menos:
+
+- preços e unidades de cobrança;
+- quotas de banco, arquivos, egress, operações e computação;
+- política de pausa e retomada;
+- backup, point-in-time recovery e janelas de restauração;
+- limites de funções, mensagens, conexões e usuários quando pertinentes;
+- condições de self-hosting e suporte operacional;
+- mecanismos de exportação e saída do fornecedor;
+- licenças e condições de bibliotecas ou serviços de sincronização;
+- disponibilidade real das APIs e capacidades citadas no recorte histórico.
+
+O plano gratuito de um serviço não deve definir a semântica do produto, e o plano pago de um serviço não resolve por si só retenção, portabilidade, deduplicação, recuperação, disponibilidade ou custo operacional humano.
+
+## 12. Critérios consolidados para comparação futura
+
+A evolução dessa frente reforça que uma decisão de infraestrutura deve ser precedida por comparação verificável de:
+
+- comportamento observável e dependências do primeiro recorte realmente aprovado;
+- cargas de 10 mil, 100 mil e 1 milhão de revisões ou ordens equivalentes justificadas por cenário;
+- número e tamanho de objetos, relações, índices, leituras, escritas e listagens;
+- CPU, memória, WAL ou mecanismo equivalente e custo de índices quando aplicável;
+- latência, egress, requests e integridade de armazenamento de artefatos;
+- funcionamento offline, materialização e recuperação de estado local;
+- retenção por referências, bloqueios de pesquisa e garbage collection;
+- backup, restauração e ensaio de migração para alternativa independente de fornecedor;
+- custo mensal de infraestrutura e custo operacional humano;
+- acessibilidade, privacidade, segurança, disponibilidade e comportamento de falha;
+- complexidade da alternativa mais simples capaz de atender ao cenário.
+
+A recomendação residual é metodológica: medir primeiro e selecionar depois. Nenhuma topologia, provider, plano, banco, armazenamento local, armazenamento de objetos, engine de sincronização, framework, cliente ou runtime está aprovado por esta evidência.
