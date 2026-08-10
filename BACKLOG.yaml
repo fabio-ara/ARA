@@ -890,3 +890,45 @@ items:
       como Row-Level Security, modos gerenciados e autogerenciados, revogação, convites,
       funcionamento offline e requisitos de conteúdo confidencial e pesquisa antes de
       decidir provedor de identidade, modelo de autorização, schema ou mecanismo de aplicação.
+
+  - id: PARAM-001
+    type: research
+    title: Definir taxonomia versionada e maturidade dos parâmetros configuráveis
+    status: pending_research
+    summary: >-
+      Investigar uma taxonomia versionada que mantenha separadas possibilidades descobertas,
+      definições conceituais, evidências mapeadas, candidatos, recomendações e decisões
+      aprovadas. Cada parâmetro candidato precisa explicitar finalidade, escopo, relação com
+      a configuração de referência, alternativas, fontes, autoridade, dependências,
+      incompatibilidades, estado da evidência, riscos e situação decisória. A experiência
+      anterior permanece perfil de referência e fonte de contraste, não limite da taxonomia
+      nem configuração universal. Os catálogos e rótulos históricos de aceitação não são
+      requisitos vigentes e não autorizam expor toda possibilidade no produto.
+    next_action: >-
+      Confrontar os registros estruturados do domínio, deduplicar parâmetros já destinados
+      a pedagogia, autoria, dados, acesso e publicação e definir quais dimensões merecem
+      permanecer como candidatos antes de qualquer aprovação de identificadores, namespaces,
+      valores, defaults, catálogo ou contrato de configuração.
+
+  - id: PARAM-002
+    type: product
+    title: Definir perfis, sobreposições, precedência e configuração efetiva reproduzível
+    status: pending_research
+    summary: >-
+      Investigar a proposta histórica de resolver configuração por combinação versionada
+      de taxonomia, perfil-base, sobreposições, políticas e bloqueios de maior autoridade,
+      exceções delimitadas, versões de conteúdo e composição e estado de capacidades,
+      produzindo um snapshot efetivo determinístico e reproduzível. Perfis nomeados e
+      sobreposições esparsas são alternativas para reduzir complexidade sem universalizar
+      a configuração de referência. Autoridade normativa deve permanecer distinta de
+      disponibilidade técnica: capacidade indisponível precisa ser explícita e qualquer
+      comportamento alternativo deve ser previamente autorizado. A ordem histórica de
+      precedência entre direitos e acessibilidade, consentimento, protocolo de pesquisa,
+      políticas institucionais, curso, escolhas do estudante, adaptação e assistência por
+      inteligência artificial permanece candidata, não regra aprovada.
+    next_action: >-
+      Validar cenários com preferências conflitantes, bloqueios de pesquisa, restrições
+      institucionais, acomodações de acessibilidade, funcionamento offline e capacidades
+      indisponíveis; comparar perfis, sobreposições, locks, overrides, fallback, cópia,
+      comparação e versionamento de snapshots antes de decidir modelo de precedência,
+      defaults, schema, UI, mecanismo adaptativo ou implementação.
