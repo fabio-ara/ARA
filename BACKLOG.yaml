@@ -834,3 +834,29 @@ items:
       Comparar perfis pessoais, de equipe, pesquisa, instituição, recursos educacionais
       abertos e conteúdo confidencial, incluindo autoridade, retenção, rollback,
       licenciamento, cópias offline e consequências para reutilização.
+
+  - id: ACCESS-001
+    type: governance
+    title: Definir visibilidade, audiência e acesso em derivações
+    status: pending_research
+    summary: >-
+      Investigar uma superfície cotidiana simples de visibilidade e audiência, incluindo
+      as alternativas Público, Privado e pessoas ou grupos autorizados, sem transformar
+      essa formulação histórica em política aprovada. O modelo candidato de acesso
+      derivacional propõe que descendentes possam restringir, mas não ampliar
+      silenciosamente, a audiência permitida pelas origens necessárias; múltiplos pais
+      e contêineres poderiam compor restrições, e revogações poderiam bloquear
+      descendentes sem apagar a trajetória. A comparação encontrou precedentes para
+      mecanismos parciais de teto hierárquico, atenuação, interseção e autorização
+      relacional, mas não valida o modelo integral. Em particular, bloquear o próprio
+      autor de um descendente após revogação ancestral permanece hipótese de desenho.
+    alternatives:
+      - Tratar a visibilidade de cada revisão de forma independente, sem teto herdado.
+      - Adotar atenuação monotônica pelas origens necessárias, sem exceção automática de autoria.
+      - Permitir ampliação somente por uma autoridade de desclassificação explicitamente definida.
+    next_action: >-
+      Validar os cenários de derivação, múltiplos pais, grupos dinâmicos, revogação,
+      reativação, metadata de nós bloqueados, cópias offline, snapshots de pesquisa,
+      requisitos institucionais, privacidade, propriedade, licenciamento, desempenho e
+      usabilidade antes de decidir modelo de autorização, padrão de visibilidade,
+      exceções, schema, tecnologia ou política de retenção.
