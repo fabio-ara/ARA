@@ -245,6 +245,35 @@ items:
       - Propostas rejeitadas ou reformuladas não geram revisão do curso.
       - O processo deliberativo pode ser relacionado à revisão que eventualmente produziu.
 
+  - id: PROV-002
+    type: governance
+    title: Definir licenciamento explícito de cursos e recursos educacionais
+    status: captured
+    summary: >-
+      O projeto distingue a licença do software e da documentação dos termos aplicáveis
+      aos conteúdos educacionais. Recursos educacionais abertos podem adotar licenças
+      próprias, inclusive CC BY-SA 4.0 quando escolhida, mas nenhuma licença aberta deve
+      ser imposta automaticamente a conteúdos criados por usuários ou sujeitos a
+      restrições institucionais. Materiais de terceiros conservam seus termos originais.
+    next_action: >-
+      Definir como os termos de cada curso ou recurso serão selecionados, registrados e
+      apresentados, incluindo autoridade para a escolha e tratamento de materiais de
+      terceiros ou restritos, antes de aprovar comportamento do produto.
+
+  - id: PROV-003
+    type: governance
+    title: Resolver proteção formal e uso da identidade do ARA
+    status: captured
+    summary: >-
+      O nome ARA, a expressão Plataforma ARA, a expansão Ambiente de Recursos de
+      Aprendizagem, o kanji, o logotipo e a identidade visual não são concedidos pelas
+      licenças de software ou documentação. O projeto não declara atualmente esses sinais
+      como marcas registradas e o símbolo ® não deve ser usado. Usos descritivos não devem
+      sugerir patrocínio, certificação, endosso ou caráter oficial inexistentes.
+    next_action: >-
+      Realizar buscas formais de marcas, analisar titularidade e decidir eventual registro
+      no Brasil e na Europa antes de alterar a política pública de identidade.
+
   - id: PED-001
     type: research
     title: Decompor finalidade, demanda, resposta e avaliação da prática
