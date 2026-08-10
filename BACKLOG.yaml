@@ -866,3 +866,27 @@ items:
       requisitos institucionais, privacidade, propriedade, licenciamento, desempenho e
       usabilidade antes de decidir modelo de autorização, padrão de visibilidade,
       exceções, schema, tecnologia ou política de retenção.
+
+  - id: ACCESS-002
+    type: governance
+    title: Definir autenticação, contexto colaborativo e autorização conectada
+    status: pending_research
+    summary: >-
+      Investigar uma arquitetura em que autenticação de identidade e autorização sobre
+      conteúdo e operações permaneçam separadas. A fonte histórica propõe identidade
+      federada para ações conectadas, contexto explícito de organização ou espaço
+      colaborativo, mínimo privilégio e negação por padrão, papéis e capacidades locais,
+      revogação e mudanças de participação aplicadas nas fronteiras conectadas e
+      permissões específicas para conteúdo confidencial, pesquisa e exportação.
+      Identificadores duráveis do domínio não deveriam depender de identificadores de
+      provedor, e o modo pessoal offline poderia operar sem provedor de identidade até
+      exigir uma ação conectada. Esses elementos são candidatos, não política aprovada.
+    alternatives:
+      - Delegar autenticação a um provedor compatível e manter autorização de domínio na aplicação.
+      - Avaliar papéis, capacidades e políticas locais, com controles de infraestrutura apenas como defesa adicional.
+      - Avaliar outros modelos de autorização que preservem mínimo privilégio, revogação e portabilidade sem acoplamento ao provedor de identidade.
+    next_action: >-
+      Confrontar OIDC, papéis e capacidades locais, avaliação de políticas, controles
+      como Row-Level Security, modos gerenciados e autogerenciados, revogação, convites,
+      funcionamento offline e requisitos de conteúdo confidencial e pesquisa antes de
+      decidir provedor de identidade, modelo de autorização, schema ou mecanismo de aplicação.
