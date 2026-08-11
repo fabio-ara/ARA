@@ -993,3 +993,46 @@ items:
       privacidade, funcionamento offline e equivalência entre implantações; definir
       critérios de conformidade sem aprovar event store, LRS, warehouse, dashboard,
       modelo preditivo, schema, padrão obrigatório ou implementação.
+
+  - id: SYNC-001
+    type: technical
+    title: Definir materialização, atualização e recuperação offline
+    status: pending_research
+    summary: >-
+      Investigar como conteúdo, capacidades e estado funcional necessários a um uso
+      offline podem ser materializados e atualizados sem destruir a última versão local
+      válida diante de interrupção, corrupção, insuficiência de armazenamento ou falha de
+      ativação. Origem ou publicação, cópia local, atualização pendente e remoção local
+      precisam permanecer distinguíveis, e consequências de perda ou limpeza devem ser
+      explícitas. Materialização atômica e preservação da versão anterior são candidatos
+      de comportamento a validar, não escolha de mecanismo físico.
+    next_action: >-
+      Definir classes de estado local, invariantes de ativação e rollback, falhas de
+      download ou importação, pressão de armazenamento, diagnóstico, exportação e
+      reabertura sem conexão; confrontar pacotes representativos e dispositivos antes de
+      aprovar formato, armazenamento local, cache, limiares, interface ou implementação.
+
+  - id: SYNC-002
+    type: technical
+    title: Definir sincronização, idempotência e conflitos sem perda silenciosa
+    status: pending_research
+    summary: >-
+      Investigar sincronização de objetos versionados, estado funcional e operações
+      autorizadas preservando intenção local, divergências e autoridade. Repetições e
+      retries não devem aplicar silenciosamente o mesmo efeito duas vezes quando a
+      operação exigir idempotência; conflitos relevantes precisam permanecer explícitos
+      e recuperáveis. Merge determinístico pode ser adequado somente onde a semântica da
+      classe de dado estiver definida. O corpus não sustenta merge semântico silencioso,
+      mas também não aprova uma proibição universal de CRDTs ou de qualquer família de
+      algoritmos. Outbox, receipts, revisão esperada e compare-and-set são alternativas
+      históricas, não contratos vigentes.
+    alternatives:
+      - Usar operações versionadas e idempotentes com fila local e detecção explícita de revisão divergente.
+      - Sincronizar estado por classe de dado com políticas de merge determinístico explicitamente definidas.
+      - Avaliar engines ou algoritmos especializados que preservem os mesmos invariantes sem impor semântica inadequada.
+    next_action: >-
+      Definir classes de dados e operações, garantias de identidade, ordenação, retry e
+      idempotência, taxonomia de conflitos, preservação e exportação de intenção local,
+      revogação, retirada de publicação e estados offline; comparar protocolos, CRDTs e
+      outros mecanismos somente depois da semântica, acessibilidade e cenários de falha,
+      sem selecionar engine, transporte, provider, schema ou interface de conflito.
