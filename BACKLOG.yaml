@@ -477,7 +477,10 @@ items:
     summary: >-
       Organizar perguntas, estratégias de busca, bases, corpus, critérios de seleção,
       sínteses, limitações e relações entre evidências e decisões de produto.
-    next_action: Definir o primeiro conjunto de questões de pesquisa e o formato do registro bibliográfico.
+    next_action: >-
+      Auditar e consolidar bibliografias, famílias de estudo, textos recuperados,
+      extrações e sínteses já existentes; relacionar lacunas a perguntas concretas e
+      definir protocolos futuros somente quando a pergunta exigir nova busca.
 
   - id: RES-002
     type: research
