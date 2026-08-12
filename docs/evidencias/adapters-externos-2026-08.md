@@ -167,11 +167,13 @@ As formulações `source-compatible candidate` devem ser lidas como avaliações
 
 Nenhum candidato deste lote está aprovado.
 
-## 10. Relação com a rodada de adapters descartáveis
+## 10. Relação com a rodada de adapters descartáveis e a revisão contratual
 
-A rodada anterior demonstrou com adapters próprios que uma fronteira canônica estreita era representável em quatro famílias. Esta rodada tentou confrontar a mesma ideia com estados inspirados em bibliotecas externas.
+A rodada anterior demonstrou com adapters próprios que uma fronteira canônica estreita era representável em quatro famílias. A revisão contratual experimental seguinte registrou dez alterações para a versão `0.2`, incluindo versão de adapter e canonicalização, garantia de isolamento, localização da validação, estado derivado, capacidade indisponível, re-resolução de seletores, alternativas de acessibilidade, medições, evidência de validação e limites de recursos.
 
-O avanço é limitado:
+Essas alterações receberam tratamento rastreável no protótipo e foram exercitadas por schemas, fixtures de migração e testes. Isso não transforma a versão `0.2` em contrato do produto. A migração cobriu somente documentos experimentais, e os resultados de conformidade não estabelecem acessibilidade, segurança, efetividade educacional nem adequação produtiva.
+
+Esta rodada tentou confrontar a mesma fronteira com estados inspirados em bibliotecas externas. O avanço é limitado:
 
 - os wrappers conseguiram remover estado específico das bibliotecas nos fixtures;
 - os documentos canônicos usados nos testes permaneceram independentes;
@@ -179,7 +181,7 @@ O avanço é limitado:
 
 A lacuna principal permaneceu aberta porque os runtimes externos não foram executados.
 
-Por isso, o pacote não supera nem substitui a necessidade de um bake-off real e reproduzível.
+Por isso, o pacote não supera nem substitui a necessidade de uma comparação real e reproduzível quando ela se tornar necessária para uma decisão concreta.
 
 ## 11. Relação com as pendências vigentes
 
@@ -200,23 +202,28 @@ Nenhuma nova decisão é necessária para preservar esta evidência.
 
 ## 12. Próxima validação necessária
 
-Uma futura comparação real entre bibliotecas deve manter a fronteira canônica estável durante o ensaio e executar versões estáveis fixadas em ambiente reproduzível com rede e dependências controladas.
+Uma futura comparação real entre bibliotecas deve manter a fronteira canônica experimental estável durante o ensaio e executar versões estáveis fixadas em ambiente reproduzível com rede e dependências controladas.
 
-A comparação deveria medir, conforme cada candidato:
+A retomada dessa comparação somente se justifica quando existir uma necessidade representativa de curso ou de pesquisa capaz de alterar uma decisão concreta, a classe de capacidade ou extensão correspondente estiver suficientemente delimitada e a pergunta arquitetural tiver critérios explícitos. A comparação deve permanecer restrita à necessidade demonstrada, sem reabrir por padrão uma plataforma universal de componentes.
 
-- fidelidade de importação e exportação;
-- comportamento de interação;
-- teclado e tecnologias assistivas;
-- reflow e dispositivos móveis;
-- tamanho de bundle e inicialização;
-- consumo de memória;
-- funcionamento offline;
-- tratamento de erros e indisponibilidade;
-- impacto da licença e dependências;
-- custo de substituição;
-- adequação à gramática educacional específica.
+Para cada candidato, o método histórico propõe registrar, conforme aplicável:
 
-Esses são critérios de investigação, não critérios de aceite aprovados.
+- versão exata, revisão de repositório, lockfile e licença;
+- bytes instalados, empacotados, transferidos e armazenados em cache como medidas distintas;
+- inicialização a frio e aquecida em navegador e perfil de dispositivo documentados;
+- memória observável, com as limitações do método de medição;
+- solicitações de rede e funcionamento após cache com a rede desativada;
+- fidelidade de importação e exportação pela fronteira canônica experimental;
+- substituição do adapter sem alteração dos documentos canônicos usados pelo curso;
+- teclado, ordem de foco, anúncios de estado, reflow em 320 CSS pixels e alternativas não visuais;
+- inspeção da árvore de acessibilidade, sem confundi-la com teste com usuários ou conformidade;
+- tamanho e concessões do código do adapter, carga de manutenção e custo de substituição;
+- licenças transitivas, assets, fontes, workers e riscos de cadeia de fornecimento;
+- adequação à gramática educacional específica e limites conhecidos.
+
+Uma falha de instalação ou execução somente pode ser atribuída ao candidato quando houver razão reproduzível específica do candidato. Limitações do ambiente permanecem limitações do método e não evidência contra a biblioteca.
+
+O resultado de uma rodada futura pode classificar cada candidato, para fins de pesquisa, como aceito para continuação, rejeitado para a função examinada ou ainda em avaliação, sempre com escopo e limitações explícitos. Essa classificação de pesquisa não equivale a seleção de stack, decisão de produto ou autorização de implementação.
 
 ## 13. Não autorizações
 
