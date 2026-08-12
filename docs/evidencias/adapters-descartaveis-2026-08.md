@@ -148,6 +148,20 @@ O pacote Node não declara dependências JavaScript externas e inclui `package-l
 
 O arquivo `standalone.html` não é preservado porque é gerado pelo script `scripts/build-standalone.mjs` a partir das fontes versionadas.
 
+### Candidatos externos apenas registrados
+
+O registro de risco e licenças da rodada catalogou alternativas para comparações posteriores sem empacotá-las nem executá-las. A fotografia histórica incluía:
+
+- MathLive/MathJSON, revisão `d10bd8dd0f428b4d1c0b19293431cba8373566d6`, licença MIT, como candidato para entrada e renderização matemática;
+- Cytoscape.js, revisão `c668509bf965340ebf2a46d1ab0dcb3b4dd6fb0e`, licença MIT, como candidato a motor e renderer de grafos;
+- Pyodide, revisão `9048e6309c6b027351673f2fc1856a6969ba7a9b`, licença MPL-2.0, como candidato a runtime Python no navegador;
+- Papyros, revisão `831b58227e63a84313b841dcd46992c747165289`, licença MIT, como candidato a execução e depuração de código;
+- Recogito Text Annotator, revisão `092be72b5fc6d670123b8f918998fe9c424050a1`, licença BSD-3-Clause, como candidato a interface de anotação de fontes.
+
+Os riscos registrados eram específicos da investigação: tamanho e cadeia de fornecimento e isolamento para Pyodide; requisitos de COOP/COEP, service worker e custo de pacotes para Papyros; acessibilidade, isolamento de geometria, seletores e integração canônica para os demais candidatos. Esses registros são temporais e não demonstram adequação atual, segurança, acessibilidade ou compatibilidade produtiva. Versões, licenças e condições técnicas precisariam ser revalidadas antes de qualquer decisão futura.
+
+Nenhuma dessas alternativas foi selecionada nessa rodada.
+
 ## 12. Dez alterações contratuais propostas
 
 A síntese histórica registrou dez alterações candidatas para uma iteração posterior do protótipo:
